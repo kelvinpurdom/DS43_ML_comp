@@ -7,6 +7,6 @@ pydeck
 matplotlib
 requests
 protobuf
-Pillow
+Pillow==10.3.0
 validators
 GitPython
