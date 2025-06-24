@@ -8,8 +8,8 @@ RESULTS_PATH = 'data/results_housing_class.csv'
 
 def main():
     st.title('🏠 Housing Classification App 🏠' )
-    st.write('Welcome to the housing classification app. Please enter your first name and upload your results file to check your accuracy and see the leaderboard.')
-    st.write('Good Luck and remember it is just for fun!!')
+    st.write('Welcome to the housing classification app. Please enter your first name below, then upload your results file to check your accuracy and see the leaderboard.')
+    st.write('🤖 Good Luck and remember it is just for fun!! 🤖')
     participant_name = get_participant_name()
 
     if participant_name:
