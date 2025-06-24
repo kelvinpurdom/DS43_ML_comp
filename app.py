@@ -10,6 +10,7 @@ def main():
     st.title('🏠 Housing Classification App 🏠' )
     st.write('Welcome to the housing classification app. Please enter your first name below, then upload your results file to check your accuracy and see the leaderboard.')
     st.write('🤖 Good Luck and remember it is just for fun!! 🤖')
+    st.write('🏋🏻‍♂️ Remember to fit your model on (X, y) before you predict. 🏋🏻‍♂️')
     participant_name = get_participant_name()
 
     if participant_name:
